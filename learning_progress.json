@@ -1,0 +1,20 @@
+{
+    "Python Programming": true,
+    "Mathematics for AI": true,
+    "NumPy and Pandas": true,
+    "Machine Learning": true,
+    "Deep Learning": true,
+    "Natural Language Processing": true,
+    "Generative AI": true,
+    "Build AI Projects": true,
+    "Python Basics": false,
+    "Data Structures": false,
+    "Object-Oriented Programming": false,
+    "File Handling": false,
+    "SQL and Databases": false,
+    "Flask or Django": false,
+    "REST APIs": false,
+    "Build Python Projects": false,
+    "saaqib_ai_engineer": [],
+    "student_ai_engineer": []
+}
