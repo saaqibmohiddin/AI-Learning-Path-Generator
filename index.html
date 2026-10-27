@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PathAI - Learning Path Generator</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#0b1020;color:#f5f7ff;font-family:Arial,sans-serif}
+header{padding:20px 7%;border-bottom:1px solid #293650;display:flex;justify-content:space-between}
+.logo{font-size:25px;font-weight:bold;color:#a99bff}
+main{max-width:1050px;margin:auto;padding:30px 18px}
+.hero{text-align:center;padding:30px 0}
+h1{font-size:clamp(30px,5vw,46px);margin-bottom:10px}
+.hero span{color:#9b8cff}
+p{color:#aab6cc;line-height:1.6}
+.layout{display:grid;grid-template-columns:320px 1fr;gap:20px}
+.panel,.topic{background:#141e33;border:1px solid #293650;border-radius:15px;padding:20px;margin-bottom:15px}
+label{display:block;margin:14px 0 7px;color:#bdc8dc;font-size:14px}
+input,select{width:100%;padding:12px;border:1px solid #35435d;border-radius:8px;background:#0b1426;color:white}
+button{padding:12px 16px;border:0;border-radius:8px;background:#8878f5;color:white;font-weight:bold;cursor:pointer;margin-top:12px}
+button.secondary{background:#273650}
+button:disabled{opacity:.6}
+.full{width:100%}
+.statrow{display:flex;gap:10px;margin:15px 0}
+.stat{flex:1;background:#202d46;padding:13px;border-radius:10px}
+.stat strong{display:block;color:#62ded2;font-size:23px}
+.bar{height:9px;background:#35435d;border-radius:10px;overflow:hidden}
+#fill{height:100%;width:0;background:#62ded2}
+.topic h3{margin-top:0}
+.topic li{margin:9px 0;color:#c8d2e5}
+.topic a{color:#62ded2}
+.check{display:flex;align-items:center;gap:9px}
+.check input{width:auto}
+#results{display:none}
+.actions{display:flex;gap:10px;flex-wrap:wrap}
+footer{text-align:center;padding:30px;color:#8493ae}
+@media(max-width:750px){.layout{grid-template-columns:1fr}.statrow{flex-wrap:wrap}.stat{min-width:28%}}
+@media print{body{background:white;color:black}.panel:first-child,header,.actions,footer{display:none!important}.topic{break-inside:avoid;background:white;color:black;border:1px solid #ccc}.topic p,.topic li{color:black}main{padding:0}}
+</style>
+</head>
+<body>
+<header><div class="logo">🎓 PathAI</div><div>Learning Path Generator</div></header>
+<main>
+<section class="hero">
+<h1>Build Your Future.<br><span>One Skill at a Time.</span></h1>
+<p>Create a personalized career roadmap, find learning resources and track your progress.</p>
+</section>
+<div class="layout">
+<aside class="panel">
+<h2>Your Learning Profile</h2>
+<form id="form">
+<label>Your name</label>
+<input id="name" placeholder="Enter your name" required>
+<label>Career goal</label>
+<select id="goal">
+<option>AI Engineer</option><option>Python Developer</option>
+<option>Data Scientist</option><option>Web Developer</option>
+</select>
+<label>Current skills</label>
+<input id="skills" placeholder="Python, HTML, SQL">
+<label>Current level</label>
+<select id="level"><option>Beginner</option><option>Intermediate</option><option>Advanced</option></select>
+<label>Plan duration</label>
+<select id="days"><option value="30">30 days</option><option value="45">45 days</option><option value="60">60 days</option><option value="90">90 days</option></select>
+<button class="full" type="submit">Generate My Learning Path →</button>
+</form>
+</aside>
+<section>
+<div id="empty" class="panel">
+<h2>🚀 Your journey starts here</h2>
+<p>Enter your profile details and generate your personalized roadmap.</p>
+</div>
+<div id="results">
+<div class="panel">
+<h2 id="welcome"></h2>
+<p id="summary"></p>
+<div class="statrow">
+<div class="stat"><strong id="total">0</strong>Topics</div>
+<div class="stat"><strong id="done">0</strong>Completed</div>
+<div class="stat"><strong id="percent">0%</strong>Progress</div>
+</div>
+<div class="bar"><div id="fill"></div></div>
+<p id="message">Start learning!</p>
+</div>
+<h2>📚 Your Learning Roadmap</h2>
+<div id="roadmap"></div>
+<div class="panel actions">
+<button onclick="downloadMD()">Download Markdown</button>
+<button class="secondary" onclick="window.print()">Download / Print PDF</button>
+</div>
+</div>
+</section>
+</div>
+</main>
+<footer>PathAI | Built with HTML, CSS and JavaScript</footer>
+<script>
+const paths={
+"AI Engineer":[
+["Python Programming","Learn Python syntax, variables, loops, functions and OOP.","python"],
+["Mathematics for AI","Study linear algebra, probability and basic statistics.","mathematics"],
+["NumPy and Pandas","Practise numerical computing and data analysis.","numpy"],
+["Machine Learning","Learn regression, classification and model evaluation.","machine learning"],
+["Deep Learning","Understand neural networks and introductory deep learning.","deep learning"],
+["NLP and Generative AI","Explore text processing, LLM concepts and prompt engineering.","generative ai"],
+["AI Project","Build and test a small AI application.","generative ai"]],
+"Python Developer":[
+["Python Fundamentals","Learn variables, data types, loops and functions.","python"],
+["Object-Oriented Python","Practise classes, objects and inheritance.","object-oriented python"],
+["File Handling and APIs","Work with files, JSON and REST APIs.","file handling and apis"],
+["SQL and Databases","Learn SQL queries and database connections.","sql"],
+["Flask or FastAPI","Build backend applications and API endpoints.","flask"],
+["Testing and Git","Practise debugging, testing and version control.","testing and git"],
+["Python Project","Build and document a complete Python application.","python"]],
+"Data Scientist":[
+["Python Fundamentals","Learn Python programming and functions.","python"],
+["Statistics","Study descriptive statistics and probability.","statistics"],
+["NumPy and Pandas","Clean, transform and analyse datasets.","numpy"],
+["Data Visualization","Create charts using Matplotlib.","data visualization"],
+["Machine Learning","Train and evaluate introductory ML models.","machine learning"],
+["SQL","Retrieve and analyse data using SQL.","sql"],
+["Data Science Project","Complete an end-to-end data analysis project.","numpy"]],
+"Web Developer":[
+["HTML","Build the structure of web pages.","html"],
+["CSS","Learn layouts, styling and responsive design.","css"],
+["JavaScript","Practise variables, functions and DOM manipulation.","javascript"],
+["Frontend Framework","Build reusable components with React.","react"],
+["Python Backend","Learn Flask or FastAPI basics.","flask"],
+["Databases and APIs","Connect applications to databases and APIs.","databases and apis"],
+["Web Project","Build and test a complete web application.","javascript"]]
+};
+const resources={
+python:[["Python Official Tutorial","https://docs.python.org/3/tutorial/"],["W3Schools Python","https://www.w3schools.com/python/"],["Kaggle Learn","https://www.kaggle.com/learn"]],
+mathematics:[["Khan Academy","https://www.khanacademy.org/math"],["3Blue1Brown","https://www.3blue1brown.com/"],["StatQuest","https://statquest.org/"]],
+numpy:[["NumPy Documentation","https://numpy.org/learn/"],["Pandas Documentation","https://pandas.pydata.org/docs/"],["Kaggle Learn","https://www.kaggle.com/learn"]],
+"machine learning":[["Google ML Crash Course","https://developers.google.com/machine-learning/crash-course"],["Scikit-learn Guide","https://scikit-learn.org/stable/user_guide.html"],["Kaggle Learn","https://www.kaggle.com/learn"]],
+"deep learning":[["PyTorch Tutorials","https://pytorch.org/tutorials/"],["TensorFlow Tutorials","https://www.tensorflow.org/tutorials"],["fast.ai","https://course.fast.ai/"]],
+"generative ai":[["Microsoft Generative AI for Beginners","https://github.com/microsoft/generative-ai-for-beginners"],["Hugging Face Learn","https://huggingface.co/learn"],["Google AI Learning","https://ai.google/learn/"]],
+html:[["MDN HTML Guide","https://developer.mozilla.org/en-US/docs/Web/HTML"],["W3Schools HTML","https://www.w3schools.com/html/"]],
+css:[["MDN CSS Guide","https://developer.mozilla.org/en-US/docs/Web/CSS"],["CSS-Tricks","https://css-tricks.com/"]],
+javascript:[["MDN JavaScript","https://developer.mozilla.org/en-US/docs/Web/JavaScript"],["JavaScript.info","https://javascript.info/"]],
+react:[["React Official Learn","https://react.dev/learn"],["W3Schools React","https://www.w3schools.com/react/"]],
+sql:[["SQLBolt","https://sqlbolt.com/"],["W3Schools SQL","https://www.w3schools.com/sql/"]],
+statistics:[["Khan Academy Statistics","https://www.khanacademy.org/math/statistics-probability"],["StatQuest","https://statquest.org/"]],
+"data visualization":[["Matplotlib Tutorials","https://matplotlib.org/stable/tutorials/"],["Plotly Python","https://plotly.com/python/"]],
+flask:[["Flask Documentation","https://flask.palletsprojects.com/"],["FastAPI Documentation","https://fastapi.tiangolo.com/"]],
+"object-oriented python":[["Python Classes","https://docs.python.org/3/tutorial/classes.html"],["Real Python OOP","https://realpython.com/python3-object-oriented-programming/"]],
+"file handling and apis":[["Python File I/O","https://docs.python.org/3/tutorial/inputoutput.html"],["Requests Documentation","https://requests.readthedocs.io/"]],
+"databases and apis":[["SQLBolt","https://sqlbolt.com/"],["REST API Tutorial","https://restfulapi.net/"]],
+"testing and git":[["Git Documentation","https://git-scm.com/doc"],["Pytest Documentation","https://docs.pytest.org/"]]
+};
+let current=null,completed=[];
+const $=id=>document.getElementById(id);
+function key(){return "pathai_"+current.name.toLowerCase()+"_"+current.goal.toLowerCase().replaceAll(" ","_")}
+$("form").addEventListener("submit",e=>{
+e.preventDefault();
+const name=$("name").value.trim();
+if(!name)return;
+const goal=$("goal").value,days=Number($("days").value);
+const topics=paths[goal];
+current={name,goal,level:$("level").value,days,skills:$("skills").value,topics:[]};
+topics.forEach((t,i)=>{
+const start=Math.floor(i*days/topics.length)+1;
+const end=Math.max(start,Math.floor((i+1)*days/topics.length));
+current.topics.push({id:"topic_"+(i+1),topic:t[0],description:t[1],start,end,tasks:["Study the fundamentals of "+t[0]+".","Practise "+t[0]+" with a hands-on exercise.","Create a small task or mini-project using "+t[0]+"."],resources:resources[t[2]]||[]});
+});
+try{completed=JSON.parse(localStorage.getItem(key())||"[]")}catch{completed=[]}
+$("empty").style.display="none";$("results").style.display="block";
+$("welcome").textContent="Welcome, "+name+"!";
+$("summary").textContent=goal+" · "+current.level+" · "+days+" days · Skills: "+(current.skills||"Not specified");
+render();
+});
+function render(){
+$("roadmap").replaceChildren();
+current.topics.forEach(t=>{
+const card=document.createElement("article");card.className="topic";
+const h=document.createElement("h3");h.textContent=`Days ${t.start}–${t.end}: ${t.topic}`;card.append(h);
+const p=document.createElement("p");p.textContent=t.description;card.append(p);
+const label=document.createElement("label");label.className="check";
+const cb=document.createElement("input");cb.type="checkbox";cb.checked=completed.includes(t.id);
+cb.addEventListener("change",()=>{completed=cb.checked?[...completed,t.id]:completed.filter(x=>x!==t.id);save();update()});
+label.append(cb,document.createTextNode("Mark as completed"));card.append(label);
+const title=document.createElement("h4");title.textContent="Practical tasks";card.append(title);
+t.tasks.forEach(x=>{const li=document.createElement("li");li.textContent=x;card.append(li)});
+const rt=document.createElement("h4");rt.textContent="Recommended resources";card.append(rt);
+t.resources.forEach(r=>{const a=document.createElement("a");a.href=r[1];a.target="_blank";a.rel="noopener noreferrer";a.textContent=r[0];const div=document.createElement("p");div.append(a);card.append(div)});
+$("roadmap").append(card);
+});
+update();
+}
+function save(){localStorage.setItem(key(),JSON.stringify(completed))}
+function update(){
+const n=current.topics.length,c=completed.length,p=Math.round(c/n*100);
+$("total").textContent=n;$("done").textContent=c;$("percent").textContent=p+"%";$("fill").style.width=p+"%";
+$("message").textContent=p===100?"Congratulations! You completed your roadmap!":p?"Great progress! Keep learning.":"Start completing topics to track your progress.";
+}
+function downloadMD(){
+if(!current)return;
+let lines=["# AI Learning Path Generator","Student: "+current.name,"Career Goal: "+current.goal,"Level: "+current.level,"Duration: "+current.days+" days",""];
+current.topics.forEach(t=>{
+lines.push("## Days "+t.start+"-"+t.end+": "+t.topic,"Status: "+(completed.includes(t.id)?"Completed":"Not completed"),t.description,...t.tasks.map(x=>"- "+x),"Resources:",...t.resources.map(r=>"- ["+r[0]+"]("+r[1]+")"),"");
+});
+const blob=new Blob([lines.join("\n")],{type:"text/markdown"});
+const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="my_learning_roadmap.md";a.click();URL.revokeObjectURL(a.href);
+}
+</script>
+</body>
+</html>
