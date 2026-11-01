@@ -203,11 +203,10 @@ python web_app.py
 
 ---
 
-👨‍💻 DEVELOPER
 
 <div align="center">MOHAMMED SAAQIB MOHIDDIN
 
-B.Tech Computer Science & Engineering | Artificial Intelligence
+Computer Science & Engineering | Artificial Intelligence
 
 Interested in Artificial Intelligence, Machine Learning, Python, and Generative AI.
 
@@ -215,7 +214,7 @@ Interested in Artificial Intelligence, Machine Learning, Python, and Generative 
 <a href="https://github.com/saaqibmohiddin">
 <img src="https://img.shields.io/badge/GitHub-View%20Profile-181717?style=for-the-badge&logo=github"/>
 </a>
-</p></div>---
+</p></div>
 
 <div align="center">BUILT WITH PYTHON • POWERED BY IDEAS • DESIGNED FOR LEARNING
 
