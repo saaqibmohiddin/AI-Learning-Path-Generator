@@ -202,13 +202,13 @@ python web_app.py
 - Demonstrates practical Python application development and AI-related integration concepts.
 
 ---
-<div align="center">👨‍💻 ABOUT THE DEVELOPER
+<div align="center">
 
 <img src="https://img.shields.io/badge/DEVELOPER-MOHAMMED%20SAAQIB%20MOHIDDIN-6D28D9?style=for-the-badge" />MOHAMMED SAAQIB MOHIDDIN
 
-B.Tech | Computer Science & Engineering (Artificial Intelligence)
+Computer Science & Engineering (Artificial Intelligence)
 
-Aspiring AI Engineer | Python Developer | GenAI Enthusiast
+Aspiring AI Engineer | Python Developer 
 
 ---
 
