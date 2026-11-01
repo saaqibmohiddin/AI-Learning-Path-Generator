@@ -167,7 +167,7 @@ pip install streamlit
 </details><details>
 <summary><b>🌐 Flask Web Interface</b></summary>python web_app.py
 
-</details><div align="center"><sub>!</sub>
+</details><div align="center"><sub></sub>
 
 </div>
 
