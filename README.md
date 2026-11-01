@@ -202,20 +202,27 @@ python web_app.py
 - Demonstrates practical Python application development and AI-related integration concepts.
 
 ---
+<div align="center">👨‍💻 ABOUT THE DEVELOPER
 
+<img src="https://img.shields.io/badge/DEVELOPER-MOHAMMED%20SAAQIB%20MOHIDDIN-6D28D9?style=for-the-badge" />MOHAMMED SAAQIB MOHIDDIN
 
-<div align="center">MOHAMMED SAAQIB MOHIDDIN
+B.Tech | Computer Science & Engineering (Artificial Intelligence)
 
-Computer Science & Engineering | Artificial Intelligence
+Aspiring AI Engineer | Python Developer | GenAI Enthusiast
 
-Interested in Artificial Intelligence, Machine Learning, Python, and Generative AI.
+---
+
+AREAS OF INTEREST
 
 <p>
+<img src="https://img.shields.io/badge/Artificial%20Intelligence-7C3AED?style=flat-square"/>
+<img src="https://img.shields.io/badge/Machine%20Learning-2563EB?style=flat-square"/>
+<img src="https://img.shields.io/badge/Generative%20AI-0891B2?style=flat-square"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+</p>CONNECT WITH ME
+
 <a href="https://github.com/saaqibmohiddin">
-<img src="https://img.shields.io/badge/GitHub-View%20Profile-181717?style=for-the-badge&logo=github"/>
-</a>
-</p></div>
+<img src="https://img.shields.io/badge/GitHub-Explore%20My%20Projects-181717?style=for-the-badge&logo=github"/>
+</a><br/><sub>Building practical projects and continuously exploring emerging technologies.</sub>
 
-<div align="center">BUILT WITH PYTHON • POWERED BY IDEAS • DESIGNED FOR LEARNING
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6D28D9,50:172554,100:080B1A&height=110&section=footer" width="100%"/></div>
+</div>
