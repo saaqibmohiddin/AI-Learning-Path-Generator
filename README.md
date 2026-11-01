@@ -148,7 +148,7 @@ AI-Learning-Path-Generator/
 <img src="https://img.shields.io/badge/STEP%2004-LAUNCH%20APP-0891B2?style=for-the-badge"/></div>~ Clone Project
 
   git clone https://github.com/saaqibmohiddin/AI-Learning-Path-Generator.git
-cd AI-Learning-Path-Generator
+cd
 
 ~ Create Environment
 
