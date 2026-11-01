@@ -140,83 +140,32 @@ AI-Learning-Path-Generator/
 
 ⚙️ INSTALLATION & SETUP
 
-Follow these steps to download, configure, and run the AI Learning Path Generator locally.
-
-01. Clone the Repository
-
-Open your terminal or VS Code terminal:
+1. Clone the Repository
 
 git clone https://github.com/saaqibmohiddin/AI-Learning-Path-Generator.git
-
-02. Navigate to the Project
-
 cd AI-Learning-Path-Generator
 
-03. Create a Virtual Environment
+2. Create & Activate Virtual Environment
 
 python -m venv venv
+venv\Scripts\activate
 
-04. Activate the Virtual Environment
+3. Install Dependencies
 
-Windows (PowerShell):
-
-.\venv\Scripts\Activate.ps1
-
-Windows (Command Prompt):
-
-venv\Scripts\activate.bat
-
-05. Install Required Packages
-
-python -m pip install --upgrade pip
 pip install -r requirements.txt
 pip install streamlit
 
-06. Configure Environment Variables
+4. Run the Application
 
-If the project requires environment variables:
-
-1. Open the project folder.
-2. Create a copy of ".env.example".
-3. Rename the copy to ".env".
-4. Add the required configuration values.
-
-Keep your ".env" file private. Never upload API keys or secrets to GitHub.
-
-07. Launch the Application
-
-Choose the interface you want to run.
-
-Option A — Streamlit Interface
+Streamlit:
 
 streamlit run app.py
 
-Option B — Flask Web Interface
+Flask:
 
 python web_app.py
 
-08. Open the Application
-
-After starting the application, check the terminal for the local URL.
-
-For Streamlit, it is usually:
-
-http://localhost:8501
-
-For Flask, use the local address printed by the application in your terminal.
-
----
-
-💡 TROUBLESHOOTING
-
-Issue| Suggested solution
-Python not recognized| Install Python and enable PATH during installation
-Module not found| Activate the virtual environment and install dependencies
-Streamlit not found| Run "pip install streamlit"
-Port already in use| Stop the other process or configure a different port
-Environment variable error| Check your ".env" configuration
-
-<sub>Note: Run commands from the project's root directory. Keep the virtual environment activated while running the application.</sub>
+5. Open the local URL shown in your terminal.
 
 ---
 <div align="center">
