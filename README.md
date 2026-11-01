@@ -138,7 +138,7 @@ AI-Learning-Path-Generator/
 
 ---
 
-Installation & Setup
+◈ Installation & Setup
 
 <div align="center">GET STARTED IN JUST 4 STEPS
 
