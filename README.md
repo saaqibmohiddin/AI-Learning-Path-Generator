@@ -1,77 +1,108 @@
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:10172A,45:34236F,100:7562D9&text=AI%20LEARNING%20PATH%20GENERATOR&fontColor=FFFFFF&fontSize=34&fontAlignY=38&desc=LEARN%20SMARTER%20%E2%80%A2%20GROW%20FASTER&descAlignY=60&descSize=16" width="100%" alt="AI Learning Path Generator"/>AI Learning Path Generator
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:080B1A,45:172554,100:6D28D9&height=230&section=header&text=AI%20LEARNING%20PATH%20GENERATOR&fontSize=34&fontColor=FFFFFF&fontAlignY=38&desc=Your%20Skills.%20Your%20Goals.%20Your%20Personalized%20Roadmap.&descSize=14&descAlignY=58&animation=fadeIn" width="100%" />AI Learning Path Generator
 
-Your Career Goals. Your Skills. Your Personalized Learning Journey.
+Build Skills. Follow a Roadmap. Achieve Your Career Goals.
 
-Build your future with structured learning roadmaps, relevant resources, and progress tracking.
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MCP-7C3AED?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Active-14B8A6?style=for-the-badge"/>
+</p></div>---
 
-""Python" (https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)" (https://python.org)
-""Streamlit" (https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)" (https://streamlit.io)
-""Flask" (https://img.shields.io/badge/Flask-222222?style=for-the-badge&logo=flask&logoColor=white)" (https://flask.palletsprojects.com/)
-""MCP" (https://img.shields.io/badge/MCP-7562D9?style=for-the-badge)" (https://modelcontextprotocol.io/)
+◈ PROJECT OVERVIEW
 
-"Explore Project" (https://github.com/saaqibmohiddin/AI-Learning-Path-Generator) · "Report an Issue" (https://github.com/saaqibmohiddin/AI-Learning-Path-Generator/issues)
+AI Learning Path Generator is a Python-based learning roadmap application designed to help users plan their career development through structured, day-wise learning paths.
 
-</div>---
+Users can select a career goal, enter their current skills, choose their experience level, and select a learning duration. The application organizes predefined career-related topics into a structured roadmap with practical tasks and learning resources.
 
-◈ THE VISION
+The platform also supports progress tracking and roadmap exports, helping users organize their learning in one place.
 
-AI Learning Path Generator is a career-focused learning application that helps students, beginners, and technology enthusiasts organize their learning journey.
-
-Choose a career, enter your current skills and experience level, select a learning duration, and generate a structured roadmap.
-
-«Less random learning. More focused progress.»
+---
 
 ✦ CORE FEATURES
 
-Feature| Description
-🎯 Career Selection| Choose your target technology career.
-🧭 Learning Roadmaps| Generate structured day-wise learning schedules.
-📅 Flexible Duration| Select 30, 45, 60, or 90 days.
-📚 Learning Resources| Discover topic-related learning links.
-📈 Progress Tracking| Mark completed topics and monitor progress.
-📄 Roadmap Export| Export roadmaps as Markdown or PDF.
-🖥️ Multiple Interfaces| Streamlit and Flask applications.
-🔌 MCP Integration| Learning-related MCP server components.
+<table>
+<tr>
+<td width="50%">🎯 Career-Based Roadmaps
 
-◈ EXPLORE CAREER PATHS
+Choose from different career paths:
 
-🤖 AI Engineer| 🐍 Python Developer
-📊 Data Scientist| 🌐 Web Developer
+- AI Engineer
+- Python Developer
+- Data Scientist
+- Web Developer
 
-◈ YOUR LEARNING JOURNEY
+</td>
+<td width="50%">🧠 Personalized Inputs
 
-flowchart TD
-    A([Choose Career]) --> B[Enter Skills and Experience]
-    B --> C[Select Duration]
-    C --> D[Generate Roadmap]
-    D --> E[Explore Resources]
-    E --> F[Complete Tasks]
-    F --> G[Track Progress]
-    G --> H[Export Roadmap]
-    style A fill:#34236F,color:#fff
-    style D fill:#34236F,color:#fff
-    style G fill:#155B57,color:#fff
-    style H fill:#155B57,color:#fff
+Provide your:
 
-1. Choose your career.
-2. Enter your current skills and experience level.
-3. Select your learning duration.
-4. Generate your roadmap.
-5. Explore learning resources and practical tasks.
-6. Track completed topics.
-7. Export your roadmap.
+- Name
+- Current skills
+- Experience level
+- Learning duration
 
-◈ TECHNOLOGY STACK
+</td>
+</tr>
+<tr>
+<td width="50%">📅 Day-Wise Planning
 
-Technology| Purpose
-Python| Core application logic
-Streamlit| Interactive interface
-Flask| Web application
-HTML| Web page structure
-ReportLab| PDF generation
-FastMCP| MCP integration
-JSON| Progress data
-Markdown| Roadmap documentation
+- 30-day roadmap
+- 45-day roadmap
+- 60-day roadmap
+- 90-day roadmap
+
+</td>
+<td width="50%">📚 Learning Resources
+
+Find topic-related learning links and useful study resources.
+
+</td>
+</tr>
+<tr>
+<td width="50%">📊 Progress Tracking
+
+- Mark topics as completed
+- Monitor completed tasks
+- Calculate completion percentage
+
+</td>
+<td width="50%">📄 Roadmap Export
+
+Export your learning roadmap in:
+
+- Markdown
+- PDF
+
+</td>
+</tr>
+</table>---
+
+◈ APPLICATION INTERFACES
+
+Interface| Description
+Streamlit| Interactive Python-based application
+Flask| Web application interface
+MCP| Model Context Protocol integration
+
+---
+
+⚡ TECHNOLOGY STACK
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=python,flask,html,css,js,vscode,git,github" />
+</p>Category| Technologies
+Programming Language| Python
+Web Framework| Flask
+Interactive Interface| Streamlit
+Frontend| HTML, CSS, JavaScript
+Data Storage| JSON
+AI Integration| AI-related generation modules
+Tool Integration| Model Context Protocol (MCP)
+Development Tools| VS Code, Git, GitHub
+
+---
 
 ◈ PROJECT ARCHITECTURE
 
@@ -105,90 +136,87 @@ AI-Learning-Path-Generator/
 ├── requirements.txt
 └── web_app.py
 
-Important Modules
+---
 
-Module| Responsibility
-"src/roadmap_engine.py"| Roadmap scheduling logic
-"src/resource_finder.py"| Learning resource discovery
-"src/progress_tracker.py"| Progress tracking
-"src/ai_generator.py"| Roadmap generation wrapper
-"app.py"| Streamlit application
-"web_app.py"| Flask application
-"learning_path_mcp.py"| MCP integration
+🚀 INSTALLATION & SETUP
 
-◈ INSTALLATION
-
-1. Clone the repository
+1. Clone the Repository
 
 git clone https://github.com/saaqibmohiddin/AI-Learning-Path-Generator.git
+
+2. Open the Project
+
 cd AI-Learning-Path-Generator
 
-2. Create a virtual environment
+3. Create a Virtual Environment
 
 python -m venv venv
 
-3. Activate it
+4. Activate the Environment
 
 Windows:
 
 venv\Scripts\activate
 
-macOS / Linux:
-
-source venv/bin/activate
-
-4. Install dependencies
+5. Install Dependencies
 
 pip install -r requirements.txt
-
-If Streamlit is not installed:
-
 pip install streamlit
 
-◈ RUN THE APPLICATION
+6. Configure Environment Variables
 
-Streamlit
+Create a ".env" file using ".env.example" and add the required configuration values, if applicable.
+
+7. Run the Application
+
+Streamlit interface:
 
 streamlit run app.py
 
-Flask
+Flask interface:
 
 python web_app.py
 
-Open the local URL displayed in your terminal.
+---
 
-◈ MCP INTEGRATION
+🔮 FUTURE ENHANCEMENTS
 
-MCP-related project files:
-
-- "learning_path_mcp.py"
-- "mcp/server.py"
-- ".vscode/mcp.json"
-
-These provide integration points for exposing learning-related functionality to compatible MCP clients.
-
-◈ FUTURE ENHANCEMENTS
-
-- [ ] More career paths.
-- [ ] Advanced AI-based recommendations.
-- [ ] Interactive roadmap visualization.
-- [ ] Additional learning resource integrations.
-- [ ] User accounts and cloud progress synchronization.
-- [ ] Improved mobile experience.
-- [ ] Project-based assignments and assessments.
-
-◈ DEVELOPER
-
-<div align="center">Mohammed Saaqib Mohiddin
-
-B.Tech — Computer Science & Engineering (Artificial Intelligence)
-
-""GitHub" (https://img.shields.io/badge/GitHub-@saaqibmohiddin-181717?style=for-the-badge&logo=github)" (https://github.com/saaqibmohiddin)
+- Advanced AI Personalization: Recommend learning paths based on individual skills, interests, and career goals.
+- Dynamic Roadmap Generation: Adjust learning plans according to skill gaps and progress.
+- User Authentication: Introduce secure registration, login, and personalized profiles.
+- Cloud-Based Synchronization: Save and access learning progress across multiple devices.
+- More Career Domains: Add Generative AI, Cybersecurity, Cloud Computing, and other emerging fields.
+- Interactive Analytics: Introduce dashboards, performance reports, and learning statistics.
+- Smart Resource Recommendations: Suggest relevant courses, documentation, tutorials, and projects.
+- Mobile Optimization: Improve the interface for smartphones, tablets, and desktops.
+- Advanced MCP Capabilities: Expand AI-assisted learning workflows through additional MCP tools.
 
 ---
 
-LEARN WITH A PLAN. BUILD WITH PURPOSE. MOVE FORWARD.
+◈ WHY THIS PROJECT?
 
-⭐ If you find this project useful, consider giving it a star.
+- Helps learners organize career-focused study plans.
+- Converts broad career goals into manageable daily topics.
+- Provides structured learning resources.
+- Encourages consistent progress tracking.
+- Demonstrates practical Python application development and AI-related integration concepts.
 
-</div>
+---
+
+👨‍💻 DEVELOPER
+
+<div align="center">MOHAMMED SAAQIB MOHIDDIN
+
+B.Tech Computer Science & Engineering | Artificial Intelligence
+
+Interested in Artificial Intelligence, Machine Learning, Python, and Generative AI.
+
+<p>
+<a href="https://github.com/saaqibmohiddin">
+<img src="https://img.shields.io/badge/GitHub-View%20Profile-181717?style=for-the-badge&logo=github"/>
+</a>
+</p></div>---
+
+<div align="center">BUILT WITH PYTHON • POWERED BY IDEAS • DESIGNED FOR LEARNING
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6D28D9,50:172554,100:080B1A&height=110&section=footer" width="100%"/></div>
