@@ -138,68 +138,85 @@ AI-Learning-Path-Generator/
 
 ---
 
-🚀 INSTALLATION & SETUP
+⚙️ INSTALLATION & SETUP
 
-1. Clone the Repository
+Follow these steps to download, configure, and run the AI Learning Path Generator locally.
+
+01. Clone the Repository
+
+Open your terminal or VS Code terminal:
 
 git clone https://github.com/saaqibmohiddin/AI-Learning-Path-Generator.git
 
-2. Open the Project
+02. Navigate to the Project
 
 cd AI-Learning-Path-Generator
 
-3. Create a Virtual Environment
+03. Create a Virtual Environment
 
 python -m venv venv
 
-4. Activate the Environment
+04. Activate the Virtual Environment
 
-Windows:
+Windows (PowerShell):
 
-venv\Scripts\activate
+.\venv\Scripts\Activate.ps1
 
-5. Install Dependencies
+Windows (Command Prompt):
 
+venv\Scripts\activate.bat
+
+05. Install Required Packages
+
+python -m pip install --upgrade pip
 pip install -r requirements.txt
 pip install streamlit
 
-6. Configure Environment Variables
+06. Configure Environment Variables
 
-Create a ".env" file using ".env.example" and add the required configuration values, if applicable.
+If the project requires environment variables:
 
-7. Run the Application
+1. Open the project folder.
+2. Create a copy of ".env.example".
+3. Rename the copy to ".env".
+4. Add the required configuration values.
 
-Streamlit interface:
+Keep your ".env" file private. Never upload API keys or secrets to GitHub.
+
+07. Launch the Application
+
+Choose the interface you want to run.
+
+Option A — Streamlit Interface
 
 streamlit run app.py
 
-Flask interface:
+Option B — Flask Web Interface
 
 python web_app.py
 
----
+08. Open the Application
 
-🔮 FUTURE ENHANCEMENTS
+After starting the application, check the terminal for the local URL.
 
-- Advanced AI Personalization: Recommend learning paths based on individual skills, interests, and career goals.
-- Dynamic Roadmap Generation: Adjust learning plans according to skill gaps and progress.
-- User Authentication: Introduce secure registration, login, and personalized profiles.
-- Cloud-Based Synchronization: Save and access learning progress across multiple devices.
-- More Career Domains: Add Generative AI, Cybersecurity, Cloud Computing, and other emerging fields.
-- Interactive Analytics: Introduce dashboards, performance reports, and learning statistics.
-- Smart Resource Recommendations: Suggest relevant courses, documentation, tutorials, and projects.
-- Mobile Optimization: Improve the interface for smartphones, tablets, and desktops.
-- Advanced MCP Capabilities: Expand AI-assisted learning workflows through additional MCP tools.
+For Streamlit, it is usually:
+
+http://localhost:8501
+
+For Flask, use the local address printed by the application in your terminal.
 
 ---
 
-◈ WHY THIS PROJECT?
+💡 TROUBLESHOOTING
 
-- Helps learners organize career-focused study plans.
-- Converts broad career goals into manageable daily topics.
-- Provides structured learning resources.
-- Encourages consistent progress tracking.
-- Demonstrates practical Python application development and AI-related integration concepts.
+Issue| Suggested solution
+Python not recognized| Install Python and enable PATH during installation
+Module not found| Activate the virtual environment and install dependencies
+Streamlit not found| Run "pip install streamlit"
+Port already in use| Stop the other process or configure a different port
+Environment variable error| Check your ".env" configuration
+
+<sub>Note: Run commands from the project's root directory. Keep the virtual environment activated while running the application.</sub>
 
 ---
 <div align="center">
