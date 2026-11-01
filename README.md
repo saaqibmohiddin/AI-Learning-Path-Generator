@@ -138,29 +138,29 @@ AI-Learning-Path-Generator/
 
 ---
 
-⚡ INITIALIZE YOUR ENVIRONMENT
+Installation & Setup
 
 <div align="center">GET STARTED IN JUST 4 STEPS
 
 <img src="https://img.shields.io/badge/STEP%2001-CLONE%20PROJECT-172554?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/STEP%2002-SETUP%20ENVIRONMENT-6D28D9?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/STEP%2003-INSTALL%20DEPENDENCIES-2563EB?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/STEP%2004-LAUNCH%20APP-0891B2?style=for-the-badge"/></div>01 — Clone Project
+<img src="https://img.shields.io/badge/STEP%2004-LAUNCH%20APP-0891B2?style=for-the-badge"/></div>~ Clone Project
 
-git clone https://github.com/saaqibmohiddin/AI-Learning-Path-Generator.git
+  git clone https://github.com/saaqibmohiddin/AI-Learning-Path-Generator.git
 cd AI-Learning-Path-Generator
 
-02 — Create Environment
+~ Create Environment
 
-python -m venv venv
+   python -m venv venv
 venv\Scripts\activate
 
-03 — Install Dependencies
+~ Install Dependencies
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
 pip install streamlit
 
-04 — Launch Application
+~ Launch Application
 
 <details>
 <summary><b>🚀 Streamlit Interface</b></summary>streamlit run app.py
