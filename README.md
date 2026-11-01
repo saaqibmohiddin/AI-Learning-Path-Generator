@@ -1,169 +1,194 @@
-🚀 AI Learning Path Generator
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:10172A,45:34236F,100:7562D9&text=AI%20LEARNING%20PATH%20GENERATOR&fontColor=FFFFFF&fontSize=34&fontAlignY=38&desc=LEARN%20SMARTER%20%E2%80%A2%20GROW%20FASTER&descAlignY=60&descSize=16" width="100%" alt="AI Learning Path Generator"/>AI Learning Path Generator
 
 Your Career Goals. Your Skills. Your Personalized Learning Journey.
 
-An AI-assisted learning roadmap application that helps learners plan their career development through structured, day-wise learning paths, topic-based resources, and progress tracking.
+Build your future with structured learning roadmaps, relevant resources, and progress tracking.
 
----
+""Python" (https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)" (https://python.org)
+""Streamlit" (https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)" (https://streamlit.io)
+""Flask" (https://img.shields.io/badge/Flask-222222?style=for-the-badge&logo=flask&logoColor=white)" (https://flask.palletsprojects.com/)
+""MCP" (https://img.shields.io/badge/MCP-7562D9?style=for-the-badge)" (https://modelcontextprotocol.io/)
 
-✨ About the Project
+"Explore Project" (https://github.com/saaqibmohiddin/AI-Learning-Path-Generator) · "Report an Issue" (https://github.com/saaqibmohiddin/AI-Learning-Path-Generator/issues)
 
-AI Learning Path Generator helps learners organize their technical learning based on their career goals, current skills, experience level, and available learning time.
+</div>---
 
-Instead of following a random collection of tutorials, users can generate a structured learning roadmap for a selected career path, explore relevant learning resources, complete practical tasks, and track their progress.
+◈ THE VISION
 
-The project supports multiple interfaces and provides roadmap export options to make learning easier to manage.
+AI Learning Path Generator is a career-focused learning application that helps students, beginners, and technology enthusiasts organize their learning journey.
 
-💡 Key Features
+Choose a career, enter your current skills and experience level, select a learning duration, and generate a structured roadmap.
+
+«Less random learning. More focused progress.»
+
+✦ CORE FEATURES
 
 Feature| Description
-🎯 Career Selection| Choose a career path based on your goal.
-🧭 Personalized Roadmap| Generate a structured schedule using your selected skills and experience level.
-📅 Flexible Duration| Choose 30, 45, 60, or 90 days.
-📚 Learning Resources| Find learning links related to roadmap topics.
-✅ Progress Tracking| Mark topics as completed and monitor completion percentage.
-📄 Roadmap Export| Export your learning roadmap in Markdown or PDF format.
-🖥️ Multiple Interfaces| Use the Streamlit or Flask application.
-🔌 MCP Integration| Access learning-path and resource-finding tools through the MCP server.
+🎯 Career Selection| Choose your target technology career.
+🧭 Learning Roadmaps| Generate structured day-wise learning schedules.
+📅 Flexible Duration| Select 30, 45, 60, or 90 days.
+📚 Learning Resources| Discover topic-related learning links.
+📈 Progress Tracking| Mark completed topics and monitor progress.
+📄 Roadmap Export| Export roadmaps as Markdown or PDF.
+🖥️ Multiple Interfaces| Streamlit and Flask applications.
+🔌 MCP Integration| Learning-related MCP server components.
 
-🎓 Supported Career Paths
+◈ EXPLORE CAREER PATHS
 
-The application currently includes these career options:
+🤖 AI Engineer| 🐍 Python Developer
+📊 Data Scientist| 🌐 Web Developer
 
-- AI Engineer
-- Python Developer
-- Data Scientist
-- Web Developer
+◈ YOUR LEARNING JOURNEY
 
-⚙️ How It Works
+flowchart TD
+    A([Choose Career]) --> B[Enter Skills and Experience]
+    B --> C[Select Duration]
+    C --> D[Generate Roadmap]
+    D --> E[Explore Resources]
+    E --> F[Complete Tasks]
+    F --> G[Track Progress]
+    G --> H[Export Roadmap]
+    style A fill:#34236F,color:#fff
+    style D fill:#34236F,color:#fff
+    style G fill:#155B57,color:#fff
+    style H fill:#155B57,color:#fff
 
-01 — Choose Your Career
+1. Choose your career.
+2. Enter your current skills and experience level.
+3. Select your learning duration.
+4. Generate your roadmap.
+5. Explore learning resources and practical tasks.
+6. Track completed topics.
+7. Export your roadmap.
 
-Select the career path you want to pursue.
-
-02 — Enter Your Learning Profile
-
-Provide your name, current skills, and experience level.
-
-03 — Select Your Duration
-
-Choose a learning period of 30, 45, 60, or 90 days.
-
-04 — Generate Your Roadmap
-
-The roadmap engine organizes career-related topics into a day-wise learning schedule with practical tasks.
-
-05 — Explore Learning Resources
-
-Find relevant learning links for the topics in your roadmap.
-
-06 — Track Your Progress
-
-Mark completed topics and monitor your learning progress.
-
-07 — Export Your Roadmap
-
-Save your roadmap as a Markdown or PDF document.
-
-🛠️ Technology Stack
+◈ TECHNOLOGY STACK
 
 Technology| Purpose
 Python| Core application logic
-Streamlit| Interactive application interface
-Flask| Web application interface
+Streamlit| Interactive interface
+Flask| Web application
+HTML| Web page structure
 ReportLab| PDF generation
-FastMCP| Model Context Protocol integration
-Markdown| Roadmap export format
+FastMCP| MCP integration
+JSON| Progress data
+Markdown| Roadmap documentation
 
-📁 Project Structure
+◈ PROJECT ARCHITECTURE
 
 AI-Learning-Path-Generator/
 │
-├── app.py
-├── web_app.py
-├── learning_path_mcp.py
-├── requirements.txt
+├── .vscode/
+│   └── mcp.json
 │
-└── src/
-    ├── roadmap_engine.py
-    ├── resource_finder.py
-    ├── progress_tracker.py
-    └── ai_generator.py
+├── mcp/
+│   └── server.py
+│
+├── src/
+│   ├── ai_generator.py
+│   ├── __init__.py
+│   ├── progress_tracker.py
+│   ├── resource_finder.py
+│   └── roadmap_engine.py
+│
+├── templates/
+│   └── index.html
+│
+├── .env.example
+├── .gitignore
+├── README.md
+├── __init__.py
+├── ai_engineer_30_day_roadmap.md
+├── app.py
+├── index.html
+├── learning_path_mcp.py
+├── learning_progress.json
+├── requirements.txt
+└── web_app.py
 
-💻 Installation and Setup
+Important Modules
 
-1. Clone the Repository
+Module| Responsibility
+"src/roadmap_engine.py"| Roadmap scheduling logic
+"src/resource_finder.py"| Learning resource discovery
+"src/progress_tracker.py"| Progress tracking
+"src/ai_generator.py"| Roadmap generation wrapper
+"app.py"| Streamlit application
+"web_app.py"| Flask application
+"learning_path_mcp.py"| MCP integration
+
+◈ INSTALLATION
+
+1. Clone the repository
 
 git clone https://github.com/saaqibmohiddin/AI-Learning-Path-Generator.git
-
-2. Open the Project Folder
-
 cd AI-Learning-Path-Generator
 
-3. Create a Virtual Environment
+2. Create a virtual environment
 
 python -m venv venv
 
-Activate it on Windows:
+3. Activate it
+
+Windows:
 
 venv\Scripts\activate
 
-4. Install Dependencies
+macOS / Linux:
+
+source venv/bin/activate
+
+4. Install dependencies
 
 pip install -r requirements.txt
 
-The Streamlit interface also requires Streamlit:
+If Streamlit is not installed:
 
 pip install streamlit
 
-▶️ Run the Application
+◈ RUN THE APPLICATION
 
-Option 1: Streamlit Interface
+Streamlit
 
 streamlit run app.py
 
-Option 2: Flask Interface
+Flask
 
 python web_app.py
 
-Open the local address displayed in your terminal to access the application.
+Open the local URL displayed in your terminal.
 
-🔌 MCP Integration
+◈ MCP INTEGRATION
 
-The project also includes an MCP server through "learning_path_mcp.py".
+MCP-related project files:
 
-It provides tools related to:
+- "learning_path_mcp.py"
+- "mcp/server.py"
+- ".vscode/mcp.json"
 
-- Career learning paths
-- Learning roadmap generation
-- Learning resource discovery
+These provide integration points for exposing learning-related functionality to compatible MCP clients.
 
-🌟 Project Goals
+◈ FUTURE ENHANCEMENTS
 
-- Make technical learning more structured.
-- Help beginners choose a clear career-learning direction.
-- Reduce the difficulty of planning learning schedules.
-- Encourage practical, consistent learning.
-- Help learners monitor their progress.
+- [ ] More career paths.
+- [ ] Advanced AI-based recommendations.
+- [ ] Interactive roadmap visualization.
+- [ ] Additional learning resource integrations.
+- [ ] User accounts and cloud progress synchronization.
+- [ ] Improved mobile experience.
+- [ ] Project-based assignments and assessments.
 
-🔮 Future Improvements
+◈ DEVELOPER
 
-- More career paths and technology tracks.
-- AI-powered topic recommendations.
-- More learning resource providers.
-- Interactive visual roadmap.
-- Improved user accounts and cloud-based progress storage.
-- Mobile-friendly experience.
-- More detailed project-based learning tasks.
+<div align="center">Mohammed Saaqib Mohiddin
 
-👨‍💻 Developer
+B.Tech — Computer Science & Engineering (Artificial Intelligence)
 
-Saaqib Mohiddin
-
-Computer Science and Engineering (Artificial Intelligence)
-
-GitHub: @saaqibmohiddin (https://github.com/saaqibmohiddin)
+""GitHub" (https://img.shields.io/badge/GitHub-@saaqibmohiddin-181717?style=for-the-badge&logo=github)" (https://github.com/saaqibmohiddin)
 
 ---
 
-⭐ If you find this project useful, consider giving the repository a star!
+LEARN WITH A PLAN. BUILD WITH PURPOSE. MOVE FORWARD.
+
+⭐ If you find this project useful, consider giving it a star.
+
+</div>
