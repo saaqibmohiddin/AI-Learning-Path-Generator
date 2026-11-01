@@ -148,7 +148,6 @@ AI-Learning-Path-Generator/
 <img src="https://img.shields.io/badge/STEP%2004-LAUNCH%20APP-0891B2?style=for-the-badge"/></div>~ Clone Project
 
   git clone https://github.com/saaqibmohiddin/AI-Learning-Path-Generator.git
-cd
 
 ~ Create Environment
 
@@ -168,7 +167,7 @@ pip install streamlit
 </details><details>
 <summary><b>🌐 Flask Web Interface</b></summary>python web_app.py
 
-</details><div align="center"><sub>⚡ Your environment is ready. Start building your learning path!</sub>
+</details><div align="center"><sub>!</sub>
 
 </div>
 
