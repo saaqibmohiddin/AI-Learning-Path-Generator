@@ -138,34 +138,39 @@ AI-Learning-Path-Generator/
 
 ---
 
-⚙️ INSTALLATION & SETUP
+⚡ INITIALIZE YOUR ENVIRONMENT
 
-1. Clone the Repository
+<div align="center">GET STARTED IN JUST 4 STEPS
+
+<img src="https://img.shields.io/badge/STEP%2001-CLONE%20PROJECT-172554?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/STEP%2002-SETUP%20ENVIRONMENT-6D28D9?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/STEP%2003-INSTALL%20DEPENDENCIES-2563EB?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/STEP%2004-LAUNCH%20APP-0891B2?style=for-the-badge"/></div>01 — Clone Project
 
 git clone https://github.com/saaqibmohiddin/AI-Learning-Path-Generator.git
 cd AI-Learning-Path-Generator
 
-2. Create & Activate Virtual Environment
+02 — Create Environment
 
 python -m venv venv
 venv\Scripts\activate
 
-3. Install Dependencies
+03 — Install Dependencies
 
 pip install -r requirements.txt
 pip install streamlit
 
-4. Run the Application
+04 — Launch Application
 
-Streamlit:
+<details>
+<summary><b>🚀 Streamlit Interface</b></summary>streamlit run app.py
 
-streamlit run app.py
+</details><details>
+<summary><b>🌐 Flask Web Interface</b></summary>python web_app.py
 
-Flask:
+</details><div align="center"><sub>⚡ Your environment is ready. Start building your learning path!</sub>
 
-python web_app.py
-
-5. Open the local URL shown in your terminal.
+</div>
 
 ---
 <div align="center">
