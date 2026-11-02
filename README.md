@@ -273,28 +273,6 @@ python web_app.py
 - Multiple application interfaces.
 - Python-based modular architecture.
 
----
-
-👨‍💻 DEVELOPER
-
-<div align="center">MOHAMMED SAAQIB MOHIDDIN
-
-B.Tech – Computer Science & Engineering (Artificial Intelligence)
-
-Aspiring AI Engineer | Python Developer | Generative AI Enthusiast
-
-AREAS OF INTEREST
-
-<img src="https://img.shields.io/badge/Artificial%20Intelligence-6D28D9?style=flat-square"/>
-<img src="https://img.shields.io/badge/Machine%20Learning-2563EB?style=flat-square"/>
-<img src="https://img.shields.io/badge/Generative%20AI-0891B2?style=flat-square"/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square"/><a href="https://github.com/saaqibmohiddin">
-<img src="https://img.shields.io/badge/GitHub-Visit%20My%20Profile-181717?style=for-the-badge&logo=github"/>
-</a></div>---
-
-<div align="center">BUILT WITH PYTHON • POWERED BY INNOVATION
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:6D28D9,50:172554,100:080B1A&section=footer" width="100%"/></div>
 
 ---
 
