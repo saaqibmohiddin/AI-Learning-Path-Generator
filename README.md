@@ -84,16 +84,22 @@ python web_app.py
 
 👨‍💻 Developer
 
-<div align="center">MOHAMMED SAAQIB MOHIDDIN
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=65&color=0:080B1A,50:172554,100:6D28D9&text=MEET%20THE%20DEVELOPER&fontSize=22&fontColor=FFFFFF&fontAlignY=55" width="100%"/>MOHAMMED SAAQIB MOHIDDIN
 
-Computer Science & Engineering (Artificial Intelligence)
+Computer Science & Engineering (AI)
 
-Aspiring AI Engineer | Python Developer | GenAI Enthusiast
+Aspiring AI Engineer • Python Developer
+
+
+
+Areas of Interest
+
+"Artificial Intelligence" "Machine Learning" "Generative AI" "Python"
 
 <a href="https://github.com/saaqibmohiddin">
-<img src="https://img.shields.io/badge/GitHub-View%20Profile-181717?style=for-the-badge&logo=github"/>
-</a>---
+<img src="https://img.shields.io/badge/GitHub-Explore%20My%20Projects-6D28D9?style=for-the-badge&logo=github&logoColor=white"/>
+</a></div>---
 
-BUILT WITH PYTHON · DESIGNED FOR LEARNING
+<div align="center">DESIGNED & DEVELOPED WITH PYTHON
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:6D28D9,50:172554,100:080B1A&section=footer" width="100%"/></div>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:6D28D9,50:172554,100:080B1A&section=footer" width="100%"/></div>
