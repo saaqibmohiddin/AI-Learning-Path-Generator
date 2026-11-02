@@ -7,24 +7,50 @@
 
 ◈ About Project
 
-AI Learning Path Generator helps learners create structured, day-wise career roadmaps based on their skills, experience level, and learning duration.
+AI Learning Path Generator is a Python-based application that creates structured learning roadmaps to help users achieve their career goals.
 
-✦ Features
+It organizes learning topics, provides useful resources, and tracks learning progress.
 
-- Career-based learning roadmaps.
-- Personalized learning inputs.
-- Topic-wise learning resources.
-- Progress tracking.
-- Markdown and PDF export.
-- Streamlit and Flask interfaces.
+---
 
-⚡ Tech Stack
+✦ Key Features
 
-- Language: Python
-- Frameworks: Flask, Streamlit
-- Frontend: HTML, CSS, JavaScript
-- Storage: JSON
-- Integration: MCP
+Feature| Description
+🎯 Career Roadmaps| Career-based learning plans
+🧠 User Inputs| Skills, experience and duration
+📚 Resources| Topic-wise learning links
+📊 Progress| Track completed topics
+📄 Export| Download PDF and Markdown
+🌐 Interfaces| Streamlit and Flask
+
+---
+
+⚡ Technology Stack
+
+Language
+
+- Python
+
+Frameworks
+
+- Flask
+- Streamlit
+
+Frontend
+
+- HTML
+- CSS
+- JavaScript
+
+Storage & Integration
+
+- JSON
+- MCP
+
+---
+
+<div align="center"><img src="https://img.shields.io/badge/BUILT%20WITH-PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/POWERED%20BY-MCP-6D28D9?style=for-the-badge"/></div>
 
 🏗️ Project Structure
 
