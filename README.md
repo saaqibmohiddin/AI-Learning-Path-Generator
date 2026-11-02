@@ -5,11 +5,11 @@
 <img src="https://img.shields.io/badge/FLASK-000000?style=for-the-badge&logo=flask&logoColor=white"/>
 <img src="https://img.shields.io/badge/MCP-6D28D9?style=for-the-badge"/></div>
 
-◈ About Project
+## ◈ About Project
 
 AI Learning Path Generator helps users create structured, day-wise learning roadmaps based on their career goals, skills, experience, and learning duration.
 
-✦ Features
+## ✦ Features
 
 - Career-based learning roadmaps.
 - Personalized learning inputs.
@@ -27,7 +27,7 @@ AI Learning Path Generator helps users create structured, day-wise learning road
 - Integration: MCP
 
 
-🏗️ Project Structure
+## 🏗️ Project Structure
 
 - AI-Learning-Path-Generator/
   - .vscode/
@@ -55,7 +55,7 @@ AI Learning Path Generator helps users create structured, day-wise learning road
   - "web_app.py"
 
 
-⚙️ Installation
+## ⚙️ Installation
 
 1. Clone the repository
 
@@ -75,7 +75,7 @@ For Flask:
 
 python web_app.py
 
-🔮 Future Enhancements
+## 🔮 Future Enhancements
 
 - AI-powered recommendations.
 - More career paths.
@@ -88,7 +88,7 @@ python web_app.py
 
 Computer Science & Engineering (Artificial Intelligence)
 
-Aspiring AI Engineer • Python Developer
+AI & Python Developer
 
 <br/>✦ AREAS OF INTEREST
 
