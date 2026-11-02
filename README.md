@@ -1,8 +1,9 @@
-<div align="center">Turn Your Career Goals Into Clear Learning Paths.
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:080B1A,35:172554,70:312E81,100:6D28D9&text=AI%20LEARNING%20PATH%20GENERATOR&fontSize=29&fontColor=FFFFFF&fontAlignY=38&desc=TURN%20YOUR%20CAREER%20GOALS%20INTO%20CLEAR%20LEARNING%20PATHS&descSize=12&descAlignY=58&animation=fadeIn" width="100%"/><span style="color:#65D6C5;">PLAN</span> · <span style="color:#2563EB;">LEARN</span> · <span style="color:#7C3AED;">TRACK</span> · <span style="color:#65D6C5;">GROW</span>
 
-PLAN • LEARN • TRACK • GROW
-
-</div>
+<img src="https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/STREAMLIT-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
+<img src="https://img.shields.io/badge/FLASK-000000?style=for-the-badge&logo=flask&logoColor=white"/>
+<img src="https://img.shields.io/badge/MCP-6D28D9?style=for-the-badge"/></div>
 
 ◈ About Project
 
