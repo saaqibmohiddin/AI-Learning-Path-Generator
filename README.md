@@ -1,56 +1,31 @@
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:080B1A,35:172554,70:312E81,100:6D28D9&text=AI%20LEARNING%20PATH%20GENERATOR&fontSize=29&fontColor=FFFFFF&fontAlignY=38&desc=TURN%20YOUR%20CAREER%20GOALS%20INTO%20CLEAR%20LEARNING%20PATHS&descSize=12&descAlignY=58&animation=fadeIn" width="100%"/><span style="color:#65D6C5;">PLAN</span> · <span style="color:#2563EB;">LEARN</span> · <span style="color:#7C3AED;">TRACK</span> · <span style="color:#65D6C5;">GROW</span>
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:080B1A,35:172554,70:312E81,100:6D28D9&text=AI%20LEARNING%20PATH%20GENERATOR&fontSize=29&fontColor=FFFFFF&fontAlignY=38&desc=TURN%20CAREER%20GOALS%20INTO%20LEARNING%20PATHS&descSize=12&descAlignY=58&animation=fadeIn" width="100%"/><span style="color:#65D6C5;">PLAN</span> · <span style="color:#2563EB;">LEARN</span> · <span style="color:#7C3AED;">TRACK</span> · <span style="color:#65D6C5;">GROW</span>
 
 <img src="https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/STREAMLIT-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
 <img src="https://img.shields.io/badge/FLASK-000000?style=for-the-badge&logo=flask&logoColor=white"/>
-<img src="https://img.shields.io/badge/MCP-6D28D9?style=for-the-badge"/></div>
+<img src="https://img.shields.io/badge/MCP-6D28D9?style=for-the-badge"/></div>---
 
 ◈ About Project
 
-AI Learning Path Generator is a Python-based application that creates structured learning roadmaps to help users achieve their career goals.
+AI Learning Path Generator helps users create structured, day-wise learning roadmaps based on their career goals, skills, experience, and learning duration.
 
-It organizes learning topics, provides useful resources, and tracks learning progress.
+✦ Features
 
----
+- Career-based learning roadmaps.
+- Personalized learning inputs.
+- Topic-wise learning resources.
+- Learning progress tracking.
+- PDF and Markdown export.
+- Streamlit and Flask interfaces.
 
-✦ Key Features
+⚡ Tech Stack
 
-Feature| Description
-🎯 Career Roadmaps| Career-based learning plans
-🧠 User Inputs| Skills, experience and duration
-📚 Resources| Topic-wise learning links
-📊 Progress| Track completed topics
-📄 Export| Download PDF and Markdown
-🌐 Interfaces| Streamlit and Flask
+- Language: Python
+- Frameworks: Flask, Streamlit
+- Frontend: HTML, CSS, JavaScript
+- Storage: JSON
+- Integration: MCP
 
----
-
-⚡ Technology Stack
-
-Language
-
-- Python
-
-Frameworks
-
-- Flask
-- Streamlit
-
-Frontend
-
-- HTML
-- CSS
-- JavaScript
-
-Storage & Integration
-
-- JSON
-- MCP
-
----
-
-<div align="center"><img src="https://img.shields.io/badge/BUILT%20WITH-PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/POWERED%20BY-MCP-6D28D9?style=for-the-badge"/></div>
 
 🏗️ Project Structure
 
@@ -79,6 +54,7 @@ Storage & Integration
   - "requirements.txt"
   - "web_app.py"
 
+
 ⚙️ Installation
 
 1. Clone the repository
@@ -104,8 +80,7 @@ python web_app.py
 - AI-powered recommendations.
 - More career paths.
 - User authentication.
-- Cloud progress storage.
-- Improved analytics.
+- Cloud progress tracking.
 
 👨‍💻 Developer
 
@@ -113,12 +88,12 @@ python web_app.py
 
 Computer Science & Engineering (Artificial Intelligence)
 
-Aspiring AI Engineer | Python Developer
+Aspiring AI Engineer | Python Developer | GenAI Enthusiast
 
 <a href="https://github.com/saaqibmohiddin">
 <img src="https://img.shields.io/badge/GitHub-View%20Profile-181717?style=for-the-badge&logo=github"/>
-</a></div>---
+</a>---
 
-<div align="center">Built with Python | Designed for Learning
+BUILT WITH PYTHON · DESIGNED FOR LEARNING
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:6D28D9,50:172554,100:080B1A&section=footer" width="100%"/></div>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:6D28D9,50:172554,100:080B1A&section=footer" width="100%"/></div>
