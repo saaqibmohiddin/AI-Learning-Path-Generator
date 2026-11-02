@@ -28,35 +28,30 @@ AI Learning Path Generator helps learners create structured, day-wise career roa
 
 🏗️ Project Structure
 
-AI-Learning-Path-Generator/
-│
-├── .vscode/
-│   └── mcp.json
-│
-├── mcp/
-│   └── server.py
-│
-├── src/
-│   ├── ai_generator.py
-│   ├── progress_tracker.py
-│   ├── resource_finder.py
-│   ├── roadmap_engine.py
-│   └── __init__.py
-│
-├── templates/
-│   └── index.html
-│
-├── .env.example
-├── .gitignore
-├── README.md
-├── __init__.py
-├── ai_engineer_30_day_roadmap.md
-├── app.py
-├── index.html
-├── learning_path_mcp.py
-├── learning_progress.json
-├── requirements.txt
-└── web_app.py
+- AI-Learning-Path-Generator/
+  - .vscode/
+    - "mcp.json"
+  - mcp/
+    - "server.py"
+  - src/
+    - "ai_generator.py"
+    - "progress_tracker.py"
+    - "resource_finder.py"
+    - "roadmap_engine.py"
+    - "__init__.py"
+  - templates/
+    - "index.html"
+  - ".env.example"
+  - ".gitignore"
+  - "README.md"
+  - "__init__.py"
+  - "ai_engineer_30_day_roadmap.md"
+  - "app.py"
+  - "index.html"
+  - "learning_path_mcp.py"
+  - "learning_progress.json"
+  - "requirements.txt"
+  - "web_app.py"
 
 ⚙️ Installation
 
