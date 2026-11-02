@@ -82,7 +82,7 @@ python web_app.py
 - User authentication.
 - Cloud progress tracking.
 
-👨‍💻 Developer
+
 
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&height=160&color=0:080B1A,40:172554,75:312E81,100:6D28D9&text=THE%20DEVELOPER&fontSize=30&fontColor=FFFFFF&fontAlignY=45&animation=fadeIn" width="100%"/>MOHAMMED SAAQIB MOHIDDIN
 
