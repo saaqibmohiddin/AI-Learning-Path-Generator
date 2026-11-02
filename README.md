@@ -3,7 +3,7 @@
 <img src="https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/STREAMLIT-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
 <img src="https://img.shields.io/badge/FLASK-000000?style=for-the-badge&logo=flask&logoColor=white"/>
-<img src="https://img.shields.io/badge/MCP-6D28D9?style=for-the-badge"/></div>---
+<img src="https://img.shields.io/badge/MCP-6D28D9?style=for-the-badge"/></div>
 
 ◈ About Project
 
