@@ -60,7 +60,6 @@ AI Learning Path Generator helps users create structured, day-wise learning road
 1. Clone the repository
 
 git clone https://github.com/saaqibmohiddin/AI-Learning-Path-Generator.git
-cd AI-Learning-Path-Generator
 
 2. Install dependencies
 
