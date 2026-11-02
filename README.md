@@ -1,9 +1,8 @@
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:080B1A,50:172554,100:6D28D9&text=AI%20LEARNING%20PATH%20GENERATOR&fontSize=29&fontColor=FFFFFF&fontAlignY=40&desc=SMART%20LEARNING%20%7C%20CAREER%20ROADMAPS&descSize=13&descAlignY=60" width="100%"/>Learn Smarter. Build Skills. Achieve Your Goals.
+<div align="center">Turn Your Career Goals Into Clear Learning Paths.
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
-<img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
-<img src="https://img.shields.io/badge/MCP-6D28D9?style=for-the-badge"/></div>
+PLAN • LEARN • TRACK • GROW
+
+</div>
 
 ◈ About Project
 
