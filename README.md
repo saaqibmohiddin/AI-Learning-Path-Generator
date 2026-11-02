@@ -84,22 +84,21 @@ python web_app.py
 
 👨‍💻 Developer
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=65&color=0:080B1A,50:172554,100:6D28D9&text=MEET%20THE%20DEVELOPER&fontSize=22&fontColor=FFFFFF&fontAlignY=55" width="100%"/>MOHAMMED SAAQIB MOHIDDIN
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&height=160&color=0:080B1A,40:172554,75:312E81,100:6D28D9&text=THE%20DEVELOPER&fontSize=30&fontColor=FFFFFF&fontAlignY=45&animation=fadeIn" width="100%"/>MOHAMMED SAAQIB MOHIDDIN
 
-Computer Science & Engineering (AI)
+Computer Science & Engineering (Artificial Intelligence)
 
 Aspiring AI Engineer • Python Developer
 
+<br/>✦ AREAS OF INTEREST
 
-
-Areas of Interest
-
-"Artificial Intelligence" "Machine Learning" "Generative AI" "Python"
+<img src="https://img.shields.io/badge/ARTIFICIAL%20INTELLIGENCE-172554?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/MACHINE%20LEARNING-2563EB?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/GENERATIVE%20AI-6D28D9?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/PYTHON-0891B2?style=for-the-badge"/><br/><br/>
 
 <a href="https://github.com/saaqibmohiddin">
-<img src="https://img.shields.io/badge/GitHub-Explore%20My%20Projects-6D28D9?style=for-the-badge&logo=github&logoColor=white"/>
-</a></div>---
+<img src="https://img.shields.io/badge/EXPLORE%20MY%20GITHUB-6D28D9?style=for-the-badge&logo=github&logoColor=white"/>
+</a><img src="https://capsule-render.vercel.app/api?type=rect&height=55&color=0:080B1A,50:172554,100:6D28D9&text=BUILD%20%7C%20INNOVATE%20%7C%20LEARN&fontSize=17&fontColor=FFFFFF&fontAlignY=55" width="100%"/>BUILT WITH PYTHON · POWERED BY INNOVATION
 
-<div align="center">DESIGNED & DEVELOPED WITH PYTHON
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:6D28D9,50:172554,100:080B1A&section=footer" width="100%"/></div>
+</div>
